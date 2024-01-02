@@ -10,5 +10,5 @@ export function measureSkill(str) {
 
 export function getSkillMessage(str) {
   let result = measureSkill(str);
-  return `\`${input}\` est: **${result>=0.5? "SKILL": "NOOB" }** _(Skillmètre: ${(result * 100).toFixed(2)}%)_`;
+  return `\`${str}\` est: **${result>=0.5? "SKILL": "NOOB" }** _(Skillmètre: ${(result * 100).toFixed(2)}%)_`;
 }
