@@ -1,4 +1,4 @@
-from node:18
+from node:21
 
 COPY src src
 COPY start.sh start.sh
