@@ -8,4 +8,4 @@ _test=$PUBLIC_KEY
 unset _test
 
 npm run register
-node src/app.js
+npm run start
